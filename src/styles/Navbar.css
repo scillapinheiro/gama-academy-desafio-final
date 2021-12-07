@@ -1,0 +1,44 @@
+.navbar.container {
+    width: 100%;
+    height: 70px;
+    padding: 0 140px 0 140px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar.nav a {
+    font: 400 14px 'Sora', sans-serif;
+    color: #2A3207;
+
+    text-transform: uppercase;
+}
+
+.navbar.nav a.budget {
+    font: 700 11px 'Sora', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    gap: 4.7rem;
+}
+
+.budget {
+    font-size: 12px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 15px 10px 15px;
+
+    border: 1px solid #2A3207;
+}
+
+.budget img {
+    margin-right: 10px;
+}
