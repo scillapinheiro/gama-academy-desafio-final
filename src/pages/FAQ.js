@@ -6,7 +6,7 @@ class FAQ extends React.Component {
         return (
             <>
                 <div>
-                     FAQ
+                     <h1>Perguntas Frequentes</h1>
                 </div>
             </>
         );

@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+.navbar.container .logo img {
+    width: 100%;
+    height: 25px;
+}
+
 .navbar.nav a {
     font: 400 14px 'Sora', sans-serif;
     color: #2A3207;
@@ -41,4 +46,6 @@
 
 .budget img {
     margin-right: 10px;
+    width: 11;
+    height: 11;
 }
