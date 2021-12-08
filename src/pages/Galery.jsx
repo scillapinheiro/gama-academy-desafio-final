@@ -1,8 +1,7 @@
 import React from 'react';
 import '../styles/Galery.css'
 
-class Galery extends React.Component {
-    render() {
+export function Galery() {
         return (
             <>
                 <div>
@@ -10,7 +9,6 @@ class Galery extends React.Component {
                 </div>
             </>
         );
-    }
 }
 
 export default Galery;

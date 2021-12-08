@@ -3,8 +3,7 @@ import Logotipo from '../assets/logotipo.svg';
 import Whatsapp from '../assets/whatsapp-green.svg';
 import '../styles/Navbar.css';
 
-class Navbar extends React.Component {
-    render() {
+export function Navbar(){
         return (
             <nav className="navbar container">
                 <div className="logo">
@@ -31,6 +30,5 @@ class Navbar extends React.Component {
             </nav>
         );
     }
-}
 
 export default Navbar;

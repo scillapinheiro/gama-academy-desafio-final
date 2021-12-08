@@ -1,12 +1,10 @@
 import React from 'react';
 import '../styles/LandingPage.css';
 
-class LandingPage extends React.Component {
-    render() {
+export function LandingPage() {
         return (
             <p>Landing Page</p>
         );
-    }
 }
 
 export default LandingPage;

@@ -6,8 +6,7 @@ import Facebook from '../assets/facebook.svg';
 import Instagram from '../assets/instagram.svg';
 import '../styles/Footer.css'
 
-class Footer extends React.Component {
-    render() {
+export function Footer() {
         return (
             <>
                 <div className="footer container">
@@ -34,7 +33,6 @@ class Footer extends React.Component {
                 
             </>
         );
-    }
 }
 
 export default Footer;

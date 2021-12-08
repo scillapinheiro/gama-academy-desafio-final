@@ -1,0 +1,62 @@
+.tituloFaq {
+    background-image: url(../assets/banner2.svg);
+    margin: 0 40px 76px 40px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloFaq h1 {
+        font: 700 40px 'Sora', sans-serif;
+        color: #455600;
+        text-align: center;
+}
+
+.textoFaq {
+    margin: 0px 435px 93px 435px;
+}
+
+h1 {
+    font: 700 40px 'Sora', sans-serif;
+    color: #455600;
+}
+
+h2{
+    font: 700 24px 'Sora', sans-serif;
+    color: #455600;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font: 700 20px 'Sora', sans-serif;
+    color: #282110;
+    margin-bottom: 12px;
+}
+
+p {
+    font: 400 16px 'Lexend', sans-serif;
+    color: #282110;
+    margin-bottom: 45px;
+}
+
+budgetFaq {
+    font-size: 12px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 15px 10px 15px;
+
+    background: #2A3207;
+}
+
+.underline {
+    border: 1px solid #455600;
+    width: 99px;
+    margin-bottom: 45px;
+}
