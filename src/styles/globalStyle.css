@@ -1,3 +1,10 @@
+:root {
+    --light-green: #455600;
+    --green: #3D4423;
+    --dark-green: #2A3207;
+    --black: #282110;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +13,59 @@
 
     text-decoration: none;
     list-style: none;
+}
+
+/* Textos e Títulos */
+
+h1 {
+    font: 700 40px 'Sora', sans-serif;
+    color: var(--light-green);
+    line-height: 48px;
+}
+
+h2 {
+    font: 700 32px 'Sora', sans-serif;
+    color: var(--light-green);
+    line-height: 41.6px;
+}
+
+h3 {
+    font: 700 24px 'Sora', sans-serif;
+    color: var(--light-green);
+    line-height: 31.2px;
+}
+
+h4 {
+    font: 700 20px 'Sora', sans-serif;
+    color: var(--black);
+    line-height: 27px;
+}
+
+p {
+    font: 400 16px 'Lexend', sans-serif;
+    color: var(--black);
+    line-height: 26.4px;
+}
+
+/* Fale conosco button */
+
+a.button-fale-conosco {
+    font: 800 13px 'Sora', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 22px;
+    background: var(--dark-green);
+
+    transition: 0.3s
+}
+
+a.button-fale-conosco:hover {
+    background: var(--light-green)
+}
+
+a.button-fale-conosco img {
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
 }
 
 /* font-family: 'Lexend', sans-serif;

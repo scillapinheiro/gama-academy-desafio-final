@@ -1,5 +1,5 @@
 import React from 'react';
-import WhatsappWhite from '../assets/whatsapp-white.svg'
+import WhatsappWhite from '../assets/whatsapp-white.svg';
 import Email from '../assets/email.svg';
 import Logo from '../assets/logo.svg';
 import Facebook from '../assets/facebook.svg';
@@ -17,11 +17,13 @@ export function Footer() {
                             <a href="https://wa.me/52999723358?text=Olá!" target="_blank">(52) 99972-3358</a>
                         </div>
                         <div className="email">
-                            <img src={Email} width="20" height="20" alt="Email" />
+                            <img src={Email} alt="Email" />
                             <a href="amazonitamacrame@gmail.com">amazonitamacrame@gmail.com</a>
                         </div>
                     </div>
-                    <img src={Logo} width="100%" height="120" alt="Amazonita Macramê logo" />
+                    <div className="logo">
+                    <img src={Logo} alt="Amazonita Macramê logo" />
+                    </div>
                     <div className="social-media">
                         <h3>Redes socias</h3>
                         <div class="social-media icons">

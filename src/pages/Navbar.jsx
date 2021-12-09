@@ -1,7 +1,7 @@
 import React from 'react';
 import Logotipo from '../assets/logotipo.svg';
 import Whatsapp from '../assets/whatsapp-green.svg';
-import '../styles/Navbar.css';
+import '../styles/Navbar.css'
 
 export function Navbar(){
         return (
