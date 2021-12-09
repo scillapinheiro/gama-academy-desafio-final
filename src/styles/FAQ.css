@@ -1,3 +1,10 @@
+.backgroundFaq {
+    background-image: url(../assets/backgroung-faq.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .tituloFaq {
     background-image: url(../assets/banner2.svg);
     margin: 0 40px 76px 40px;
@@ -8,9 +15,9 @@
 }
 
 .tituloFaq h1 {
-        font: 700 40px 'Sora', sans-serif;
-        color: #455600;
-        text-align: center;
+    font: 700 40px 'Sora', sans-serif;
+    color: #455600;
+    text-align: center;
 }
 
 .textoFaq {
@@ -20,14 +27,6 @@
 h1 {
     font: 700 40px 'Sora', sans-serif;
     color: #455600;
-}
-
-h2{
-    font: 700 24px 'Sora', sans-serif;
-    color: #455600;
-    text-align: center;
-    margin-top: 120px;
-    margin-bottom: 24px;
 }
 
 h3 {
@@ -42,17 +41,31 @@ p {
     margin-bottom: 45px;
 }
 
-budgetFaq {
-    font-size: 12px;
-    font-weight: bold;
+.duvidaLink{
+    margin: 0 40px 20px 40px;
+    height: 160px;
+    text-align: center;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h2 {
+    font: 700 24px 'Sora', sans-serif;
+    color: #455600;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
 
-    padding: 10px 15px 10px 15px;
-
+.budgetFaq {
+    font: 800 13px 'Sora', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 22px;
     background: #2A3207;
+}
+
+.budgetFaq img {
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
 }
 
 .underline {
