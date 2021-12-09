@@ -5,7 +5,7 @@ export function About() {
         return (
             <>
                 <div>
-                     About
+                     <p>About</p>
                 </div>
             </>
         );

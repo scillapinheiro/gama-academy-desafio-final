@@ -14,7 +14,7 @@ export function Footer() {
                         <h3>Entre em contato</h3>
                         <div className="whatsapp">
                             <img src={WhatsappWhite} width="20" height="20" alt="Whatsapp logo" />
-                            <a href="https://wa.me/52999723358?text=Olá!" target="_blank">(52) 99972-3358</a>
+                            <a href="https://wa.me/52999723358?text=Olá!" rel="noreferrer" target="_blank">(52) 99972-3358</a>
                         </div>
                         <div className="email">
                             <img src={Email} alt="Email" />
@@ -27,8 +27,8 @@ export function Footer() {
                     <div className="social-media">
                         <h3>Redes socias</h3>
                         <div class="social-media icons">
-                            <a href="#" target="_blank"><img src={Facebook} width="42" height="42" alt="Facebook logo" /></a>
-                            <a href="#" target="_blank"><img src={Instagram} width="42" height="42" alt="Instagram logo" /></a>
+                            <a className="facebook-icon" href="https://www.facebook.com/amazonita.macrame/" rel="noreferrer" target="_blank"><img src={Facebook} alt="Facebook logo" /></a>
+                            <a className="instagram-icon" href="https://www.instagram.com/amazonitamacrame/" rel="noreferrer" target="_blank"><img src={Instagram} alt="Instagram logo" /></a>
                         </div>
                     </div>
                 </div>

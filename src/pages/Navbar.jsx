@@ -23,7 +23,7 @@ export function Navbar(){
                             <a href="./FAQ">Perguntas Frequentes</a>
                         </li>
                         <li>
-                            <a className="budget" href="https://wa.me/52999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+                            <a className="budget" href="https://wa.me/52999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
                         </li>
                     </ul>
                 </div>

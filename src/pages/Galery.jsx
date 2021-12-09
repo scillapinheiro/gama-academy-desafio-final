@@ -5,7 +5,7 @@ export function Galery() {
         return (
             <>
                 <div>
-                     Galery
+                     <p>Galery</p>
                 </div>
             </>
         );
