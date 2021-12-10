@@ -1,0 +1,101 @@
+.background-carol-about {
+    background-image: url(../assets/carol-background-about.svg);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.background-carol-about h1 {
+    margin-bottom: 24px;
+}
+
+.carol-foto {
+    max-width: 430px;
+    height: auto;
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+
+.introducao-about {
+    margin: 109px 112px 121px 106px;
+    align-self: start;
+}
+
+.nossa-historia {
+    margin: 160px 335px 0px 335px;
+    text-align: center;
+}
+
+.nossa-historia p{
+    margin-bottom: 76px;
+}
+
+.nossa-historia h2 {
+    margin-bottom: 24px;
+}
+
+.pedra-foto {
+    width: 199px;
+    height: auto;
+    margin-bottom: -16px;
+    position: absolute;
+}
+
+.selo-amazonita {
+    width: 179.85px;
+    height: auto;
+    position: relative;
+    top: 35px;
+    left: 373.5px;
+    transform: rotate(9.83deg);
+}
+
+.banner-about {
+    margin: 0 40px 65px 40px;
+    display: flex;
+    justify-content: center;
+    width: 93vw;
+}
+
+.nossos-valores h2 {
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.valores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 185px;
+}
+
+.valores-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.valores-icons h4{
+    margin: 20px 0px;
+    color: var(--light-green);
+}
+
+.valores-icons p {
+    font-size: 14px;
+}
+
+.about-pedido {
+    margin: 0 40px 20px 40px;
+    height: 160px;
+    text-align: center;
+}
+
+.about-pedido h3 {
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 30px;
+}
