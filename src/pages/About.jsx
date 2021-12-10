@@ -27,7 +27,7 @@ export function About() {
                         </p>
                     </div>
 
-                    <img src={Carol} className="carol-foto" />
+                    <img src={Carol} className="carol-foto"  alt="Carol" />
 
                 </section>
 
@@ -45,33 +45,33 @@ export function About() {
                     </p>
 
                     <div>
-                        <img src={Pedra} className="pedra-foto" />
+                        <img src={Pedra} className="pedra-foto"  alt="..."  />
 
-                        <img src={Selo} className="selo-amazonita" />
+                        <img src={Selo} className="selo-amazonita"  alt="..."  />
                     </div>
 
                 </section>
 
-                <img src={BannerAbout} className="banner-about" />
+                <img src={BannerAbout} className="banner-about"  alt="Logo Amazonita"  />
 
                 <section className="nossos-valores">
 
                     <h2>Nossos valores</h2>
                     <div className="valores">
                         <div className="valores-icons">
-                            <img src={Sustentavel} />
+                            <img src={Sustentavel}  alt="..."  />
                             <h4>Sustentabilidade</h4>
                             <p>Utilizamos materiais reciclados em nossas peças e evitamos o uso de plástico em nossos produtos e embalagens</p>
                         </div>
 
                         <div className="valores-icons">
-                            <img src={Cliente} />
+                            <img src={Cliente} alt="..." />
                             <h4>Foco no cliente</h4>
                             <p>Prezamos pelo entendimento da necessidade do cliente para oferecer os produtos que mais se adequam</p>
                         </div>
 
                         <div className="valores-icons">
-                            <img src={Transparencia} />
+                            <img src={Transparencia} alt="..." />
                             <h4>Transparência</h4>
                             <p>Gostamos de mostrar nosso processo de criação e trazer clareza às principais dúvidas</p>
                         </div>
