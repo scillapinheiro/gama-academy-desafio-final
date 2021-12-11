@@ -67,17 +67,24 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    gap: 1.5rem
+    margin: 16px 0;
 }
 
 .social-media.icons .facebook-icon,
-.social-media.icons .instagram-icon  {
+.social-media.icons .instagram-icon {
     width: 42;
-    height: 42;
+    height: auto;
+
+    transition: .3s;
 }
 
-/* Responsive */
+.social-media.icons .facebook-icon:hover,
+.social-media.icons .instagram-icon:hover {
+    opacity: 0.6;
+}
 
+
+/* Responsive */
 @media (max-width: 834px) {
     .footer.container {
         padding: 0 40px;

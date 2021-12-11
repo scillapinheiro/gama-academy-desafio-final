@@ -1,10 +1,9 @@
 .background-carol-about {
-    background-image: url(../assets/carol-background-about.svg);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    flex-wrap: wrap;
     align-items: center;
     margin: 0 40px;
+    background-color: var(--light-yellow);
 }
 
 .background-carol-about h1 {
@@ -12,11 +11,15 @@
 }
 
 .carol-foto {
+    display: flex;
+    justify-content: center;
+}
+
+.carol-foto img {
     max-width: 430px;
     height: auto;
     position: relative;
     top: 75px;
-    left: 80px;
 }
 
 .introducao-about {
@@ -29,7 +32,7 @@
     text-align: center;
 }
 
-.nossa-historia p{
+.nossa-historia p {
     margin-bottom: 76px;
 }
 
@@ -40,7 +43,6 @@
 .pedra-foto {
     width: 199px;
     height: auto;
-    margin-bottom: -16px;
     position: absolute;
 }
 
@@ -50,14 +52,25 @@
     position: relative;
     top: 35px;
     left: 373.5px;
+
+    filter: drop-shadow(0px 5px 22px rgba(58, 43, 9, 0.3));
     transform: rotate(9.83deg);
 }
 
 .banner-about {
-    margin: 0 40px 65px 40px;
+    background: var(--yellow);
+
     display: flex;
     justify-content: center;
-    width: 93vw;
+    align-items: center;
+
+    margin: 0 40px 65px 40px;
+    padding: 50px 0
+}
+
+.banner-about img {
+    width: 402px;
+    height: auto;
 }
 
 .nossos-valores h2 {
@@ -66,17 +79,16 @@
 }
 
 .valores {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
     margin: 0 185px;
 }
 
 .valores-icons {
-    display: flex;
-    flex-direction: column;
+    width: 259px;
+    height: auto;
     align-items: center;
     text-align: center;
-    padding: 0 50px;
 }
 
 .valores-icons h4{

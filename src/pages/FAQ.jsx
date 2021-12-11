@@ -8,7 +8,9 @@ export function FAQ() {
     return (
         <>
         <div className="backgroundFaq">
-            <div className="tituloFaq"> <h1>Perguntas Frequentes</h1> </div>
+            <div className="tituloFaq">
+                <h1>Perguntas Frequentes</h1>
+            </div>
 
             <div className="textoFaq">
                 <h4> Qual a diferença entre o galho natural tratado e a cavilha de madeira? </h4>
@@ -29,7 +31,7 @@ export function FAQ() {
 
             <div className="duvidaLink">
                 <h3>Ainda tem alguma dúvida?</h3> 
-                <a className="button-fale-conosco" href="https://wa.me/52999723358?text=Olá!%20Tenho%20uma%20dúvida." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Fale conosco</a> </div>
+                <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Tenho%20uma%20dúvida." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Fale conosco</a> </div>
             </div>
         </>
     );

@@ -46,6 +46,7 @@
 
 .underline {
     border: 1px solid var(--green);
+    background: var(--green);
     width: 99px;
     margin-bottom: 45px;
 }

@@ -2,7 +2,10 @@
     --light-green: #455600;
     --green: #3D4423;
     --dark-green: #2A3207;
+    --green-hover: #5B6634;
     --black: #282110;
+    --light-yellow: #F9F6F2;
+    --yellow: #F3F5EB;
 }
 
 * {
@@ -44,11 +47,11 @@ h4 {
 p {
     font: 400 16px 'Lexend', sans-serif;
     color: var(--black);
-    line-height: 26.4px;
+    line-height: 26.4px;            
 }
 
 /* Fale conosco button */
-a.button-fale-conosco {
+a.button-whatsapp {
     font: 800 13px 'Sora', sans-serif;
     text-transform: uppercase;
     padding: 12px 22px;
@@ -57,11 +60,11 @@ a.button-fale-conosco {
     transition: 0.3s
 }
 
-a.button-fale-conosco:hover {
+a.button-whatsapp:hover {
     background: var(--light-green)
 }
 
-a.button-fale-conosco img {
+a.button-whatsapp img {
     margin-right: 10px;
     width: 13px;
     height: 13px;

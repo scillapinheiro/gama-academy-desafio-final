@@ -3,12 +3,11 @@ import '../styles/About.css';
 import Carol from '../assets/carolamazonita.JPG';
 import Pedra from '../assets/fotomao.JPG';
 import Selo from '../assets/selo.png';
+import BannerAbout from '../assets/banner-about.svg';
 import Whatsapp from '../assets/whatsapp-white.svg';
 import Sustentavel from '../assets/sustentabilidade-icon.svg';
 import Cliente from '../assets/cliente-icon.svg';
 import Transparencia from '../assets/transparencia.svg';
-import BannerAbout from '../assets/banner-about.svg'
-
 
 export function About() {
     return (
@@ -27,12 +26,12 @@ export function About() {
                         </p>
                     </div>
 
-                    <img src={Carol} className="carol-foto"  alt="Carol" />
-
+                    <div className="carol-foto">
+                        <img src={Carol} alt="Carol" />
+                    </div>
                 </section>
 
                 <section className="nossa-historia">
-
                     <h2>Nossa história</h2>
                     <p>
                         A Amazonita Macramê surgiu em 2016 como projeto para criação de uma marca, exigido numa disciplina da faculdade de Publicidade e Propaganda. O foco da empresa era voltado para acessórios, como pulseiras e colares.
@@ -49,13 +48,13 @@ export function About() {
 
                         <img src={Selo} className="selo-amazonita"  alt="..."  />
                     </div>
-
                 </section>
 
-                <img src={BannerAbout} className="banner-about"  alt="Logo Amazonita"  />
+                <div className="banner-about">
+                    <img src={BannerAbout} alt="Logo Amazonita"  />
+                </div>
 
                 <section className="nossos-valores">
-
                     <h2>Nossos valores</h2>
                     <div className="valores">
                         <div className="valores-icons">
@@ -76,12 +75,11 @@ export function About() {
                             <p>Gostamos de mostrar nosso processo de criação e trazer clareza às principais dúvidas</p>
                         </div>
                     </div>
-
                 </section>
 
                 <div className="about-pedido">
                     <h3>Se interessou pelo que oferecemos?</h3>
-                    <a className="button-fale-conosco" href="https://wa.me/52999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+                    <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
                 </div>
             </div>
         </>
