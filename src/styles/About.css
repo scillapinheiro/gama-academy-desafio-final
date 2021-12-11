@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: 0 40px;
-    background-color: var(--light-yellow);
+    background-color: var(--background-yellow);
 }
 
 .background-carol-about h1 {
@@ -58,7 +58,7 @@
 }
 
 .banner-about {
-    background: var(--yellow);
+    background: var(--background-yellow);
 
     display: flex;
     justify-content: center;

@@ -67,7 +67,7 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin: 16px 0;
+    gap: 1.8rem;
 }
 
 .social-media.icons .facebook-icon,
