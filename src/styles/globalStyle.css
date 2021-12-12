@@ -50,7 +50,7 @@ p {
 }
 
 /* Fale conosco button */
-a.button-whatsapp {
+.button-whatsapp {
     font: 800 13px 'Sora', sans-serif;
     text-transform: uppercase;
     padding: 12px 22px;
@@ -59,11 +59,11 @@ a.button-whatsapp {
     transition: 0.3s
 }
 
-a.button-whatsapp:hover {
-    background: var(--light-green)
+.button-whatsapp:hover {
+    background: var(--light-green);
 }
 
-a.button-whatsapp img {
+.button-whatsapp img {
     margin-right: 10px;
     width: 13px;
     height: 13px;

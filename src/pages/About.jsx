@@ -4,7 +4,7 @@ import Carol from '../assets/carolamazonita.JPG';
 import Pedra from '../assets/fotomao.JPG';
 import Selo from '../assets/selo.png';
 import BannerAbout from '../assets/banner-about.svg';
-import Whatsapp from '../assets/whatsapp-white.svg';
+import Whatsapp from '../assets/whatsapp.svg';
 import Sustentavel from '../assets/sustentabilidade-icon.svg';
 import Cliente from '../assets/cliente-icon.svg';
 import Transparencia from '../assets/transparencia.svg';
@@ -13,6 +13,9 @@ export function About() {
     return (
         <>
             <div>
+                <div className="tituloabout">
+                    <h1>Sobre Nós</h1>
+                </div>
                 <section className="background-carol-about">
                     <div className="introducao-about">
                         <h1>
@@ -40,25 +43,24 @@ export function About() {
                         Após um longo hiato, retornamos em 2021 com nova identidade visual, novos materiais e novos produtos, focados na decoração de interiores, mas mantendo a qualidade, a criatividade e a dedicação em todas as nossas criações.
                         <br />
                         <br />
-                        Nosso nome é inspirado pela pedra Amazonita, uma pedra esverdeada, que recebeu esse nome como forma de homenagem ao rio Amazonas. Diz a lenda que os indígenas que moravam às margens do rio foram os primeiros a encontrar essa pedra tão especial. Possui uma poderosa ação filtrante, além de ser considerada um amuleto que atrai energias boas e afasta as ruins.
+                        Nosso nome é inspirado pela pedra <strong>Amazonita</strong>, uma pedra esverdeada, que recebeu esse nome como forma de homenagem ao rio Amazonas. Diz a lenda que os indígenas que moravam às margens do rio foram os primeiros a encontrar essa pedra tão especial. Possui uma poderosa ação filtrante, além de ser considerada um amuleto que atrai energias boas e afasta as ruins.
                     </p>
-
-                    <div>
-                        <img src={Pedra} className="pedra-foto"  alt="..."  />
-
-                        <img src={Selo} className="selo-amazonita"  alt="..."  />
-                    </div>
                 </section>
 
+                <div className="small-images">
+                    <img src={Pedra} className="pedra-foto" alt="..." />
+                    <img src={Selo} className="selo-amazonita" alt="..." />
+                </div>
+
                 <div className="banner-about">
-                    <img src={BannerAbout} alt="Logo Amazonita"  />
+                    <img src={BannerAbout} alt="Logo Amazonita" />
                 </div>
 
                 <section className="nossos-valores">
                     <h2>Nossos valores</h2>
                     <div className="valores">
                         <div className="valores-icons">
-                            <img src={Sustentavel}  alt="..."  />
+                            <img src={Sustentavel} alt="..." />
                             <h4>Sustentabilidade</h4>
                             <p>Utilizamos materiais reciclados em nossas peças e evitamos o uso de plástico em nossos produtos e embalagens</p>
                         </div>

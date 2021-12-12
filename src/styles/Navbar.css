@@ -8,23 +8,31 @@
     align-items: center;
 }
 
+.navbar.container .logo {
+    display: block;
+}
+
 .navbar.container .logo img {
     max-width:100%;
     height:auto;
 }
 
-.navbar.nav{
+#btn-mobile {
+    display: none;
+}
+
+#nav {
     display: flex;
 }
 
-.navbar.nav .nav {
+#menu {
     display: flex;
     align-items: center;
 
     gap: 3rem;
 }
 
-.navbar.nav .nav li a {
+#menu li a {
     font: 400 14px 'Sora', sans-serif;
     color: var(--dark-green);
 
@@ -33,17 +41,27 @@
     transition: .3s
 }
 
-.navbar.nav .nav li a:hover {
+#menu  li a:hover {
     color: var(--green-hover)
 }
 
-/* .navbar.nav .nav li a:active {
-    color: var(--green-hover)
-} */
-
-.navbar.nav a.button-whatsapp{
+#menu li.button-whatsapp {
     margin-left: 61px;
 }
+
+#menu li.button-whatsapp a {
+    font: 700 11px 'Sora', sans-serif;
+    color: #FFF;
+}
+
+#menu li.button-whatsapp a:hover {
+    color: #FFF;
+}
+
+.logo-mobile {
+    display: none;
+}
+
 
 /* Responsive */
 @media (max-width: 834px) {
@@ -51,7 +69,30 @@
         padding: 0 40px;
     }
 
-    .navbar.nav .nav {
-        gap: 1.3rem;
+    /* .navbar.container .logo {
+        display: none;
     }
+
+    #btn-mobile {
+        display: block;
+    }
+
+    #nav.active #menu{
+        display: flex;
+    }
+
+    #menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+    }
+
+    .logo-mobile {
+        display: block;
+
+        width: 185px;
+        height: auto;
+    } */
 }

@@ -85,7 +85,7 @@ a {
 
 
 /* Responsive */
-@media (max-width: 834px) {
+@media (max-width: 835px) and (min-width: 430px) {
     .footer.container {
         padding: 0 40px;
     }
@@ -107,12 +107,17 @@ a {
         margin: 15px 0;
     }
 
+    .footer.container .logo img {
+        max-width: 200px;
+        height: auto
+    }
+
     .social-media.icons {
         gap: .7rem
     }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 429px) {
     .footer.container {
         height: 432px;
         display: flex;
@@ -125,5 +130,10 @@ a {
     .footer.container .contact .email {
         display: flex;
         justify-content: center;
+    }
+
+    .footer.container .logo img {
+        max-width: 240px;
+        height: auto;
     }
 }

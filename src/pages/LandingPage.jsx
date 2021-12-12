@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/LandingPage.css'
-import Whatsapp from '../assets/whatsapp-white.svg';
+import Whatsapp from '../assets/whatsapp.svg';
 import Carol from '../assets/carolamazonitamain.jpg';
 import Produto from '../assets/produtomain.jpg';
 import Produto2 from '../assets/produtomain2.jpg';

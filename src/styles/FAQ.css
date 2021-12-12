@@ -1,44 +1,44 @@
-.backgroundFaq {
+.backgroundfaq {
     background-image: url(../assets/backgroung-faq.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.tituloFaq {
-    background-image: url(../assets/banner2.svg);
+.titulofaq {
+    background-image: url(../assets/banner.svg);
     background-size: cover;
     background-position: center;
-    margin: 0 40px 76px 40px;
+    margin: 0 40px;
     height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.tituloFaq h1 {
+.titulofaq h1 {
     text-align: center;
 }
 
-.textoFaq {
+.textofaq {
     margin: 0px 435px 93px 435px;
 }
 
-.textoFaq h4 {
-    margin-bottom: 12px;
+.textofaq h4 {
+    margin: 76px 0 12px 0;
 }
 
-.textoFaq p {
+.textofaq p {
     margin-bottom: 45px;
 }
 
-.duvidaLink {
+.duvidalink {
     margin: 0 40px 20px 40px;
     height: 160px;
     text-align: center;
 }
 
-.duvidaLink h3 {
+.duvidalink h3 {
     text-align: center;
     margin-top: 72px;
     margin-bottom: 30px;
@@ -52,19 +52,18 @@
 }
 
 /* Responsive */
-
 @media (max-width: 834px) {
-    .tituloFaq {
+    .titulofaq {
         margin: 0 0px 76px 0px;
     }
 
-    .textoFaq {
+    .textofaq {
         margin: 0 150px;
     }
 }
 
 @media (max-width: 428px) {
-    .textoFaq {
+    .textofaq {
         margin: 0 50px;
     }
 }

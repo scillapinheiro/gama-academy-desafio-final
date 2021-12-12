@@ -1,3 +1,7 @@
+.tituloabout {
+    display: none;
+}
+
 .background-carol-about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -28,25 +32,26 @@
 }
 
 .nossa-historia {
-    margin: 160px 335px 0px 335px;
+    margin: 160px 335px 76px 335px;
     text-align: center;
-}
-
-.nossa-historia p {
-    margin-bottom: 76px;
 }
 
 .nossa-historia h2 {
     margin-bottom: 24px;
 }
 
-.pedra-foto {
+.small-images {
+    display: flex;
+    justify-content: center;
+}
+
+.small-images .pedra-foto {
     width: 199px;
     height: auto;
     position: absolute;
 }
 
-.selo-amazonita {
+.small-images .selo-amazonita {
     width: 179.85px;
     height: auto;
     position: relative;
@@ -75,28 +80,28 @@
 
 .nossos-valores h2 {
     text-align: center;
-    margin-bottom: 73px;
+    margin-bottom: 50px;
 }
 
-.valores {
+.nossos-valores .valores {
     display: flex;
     justify-content: space-around;
     margin: 0 185px;
 }
 
-.valores-icons {
-    width: 259px;
+.nossos-valores  .valores-icons {
+    width: 359px;
     height: auto;
     align-items: center;
     text-align: center;
 }
 
-.valores-icons h4{
+.nossos-valores  .valores-icons h4{
     margin: 20px 0px;
     color: var(--light-green);
 }
 
-.valores-icons p {
+.nossos-valores  .valores-icons p {
     font-size: 14px;
 }
 
@@ -111,3 +116,152 @@
     margin-top: 72px;
     margin-bottom: 30px;
 }
+
+
+/* Responsive */
+@media (max-width: 835px) and (min-width: 430px) {
+    .tituloabout {
+        background-image: url(../assets/banner.svg);
+        background-size: cover;
+        background-position: center;
+        margin: 0 40px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background-carol-about {
+        margin: 0 80px;
+
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .introducao-about {
+        margin: 40px 0 40px 80px;
+    }
+
+    .carol-foto img {
+        max-width: 430px;
+        height: auto;
+        top: 0;
+    }
+
+    .nossa-historia {
+        margin: 55px 150px 76px 150px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .small-images {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 230px;
+    }
+
+    .small-images .pedra-foto {
+        width: 322px;
+        height: auto;
+    }
+
+    .small-images .selo-amazonita {
+        width: 180px;
+        height: 180px;
+        top: 160px;
+        left: 200px;
+    }
+
+    .banner-about {
+        display: none;
+    }
+
+    .nossos-valores .valores {
+        margin: 0 40px 119px 40px;
+    }
+
+    .nossos-valores .valores-icons {
+        width: 230px;
+        height: auto;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 429px) {
+    .tituloabout {
+        margin: 0;
+    }
+
+    .background-carol-about {
+        margin: 0 25px 81px 25px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .carol-foto img {
+        width: 357px;
+        height: auto;
+        top: 0;
+        right: 55px;
+    }
+
+    .introducao-about {
+        margin: 38px 0 0 40px;
+    }
+
+    .introducao-about h1 {
+        font-size: 32px;
+    }
+
+    .nossa-historia {
+        margin: 80px 40px 
+    }
+
+    .small-images {
+        justify-content: start;
+    }
+
+    .small-images .pedra-foto {
+        width: 322px;
+        height: auto;
+        left: -30px;
+    }
+
+    .small-images .selo-amazonita {
+        width: 130px;
+        height: 130px;
+        top: 60px;
+        left: 245px;
+    }
+
+    .banner-about {
+        display: none;
+    }
+
+    .nossos-valores {
+        margin-top: 300px;
+    }
+
+    .nossos-valores h2 {
+        margin-bottom: 30px;
+    }
+
+    .nossos-valores .valores {
+        margin: 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nossos-valores .valores-icons {
+        width: 300px;
+        height: auto;
+
+        margin-bottom: 50px;
+    }
+
+    .about-pedido h3 {
+        margin-top: 30px;
+    }
+}
+

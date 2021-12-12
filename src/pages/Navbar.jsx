@@ -1,18 +1,22 @@
 import React from 'react';
 import Logotipo from '../assets/logotipo.svg';
-import Whatsapp from '../assets/whatsapp-white.svg';
-import '../styles/Navbar.css'
+import LogoMobile from '../assets/logotipo-mobile.svg';
+import MenuIcon from '../assets/menu-icon.svg';
+import Whatsapp from '../assets/whatsapp.svg';
+import '../styles/Navbar.css';
 
 export function Navbar(){
     return (
-        <nav className="navbar container">
+        <div className="navbar container">
             <div className="logo">
                 <a href="./">
                     <img src={Logotipo} alt="Amazonita Macramê logo" />
                 </a>
             </div>
-            <div className="navbar nav">
-                <ul className="nav">
+            <nav id="nav">
+                <img id="btn-mobile" src={MenuIcon} alt="Icone de menu" />
+                
+                <ul id="menu">
                     <li>
                         <a href="./About">Sobre</a>
                     </li>
@@ -22,10 +26,17 @@ export function Navbar(){
                     <li>
                         <a href="./FAQ">Perguntas Frequentes</a>
                     </li>
+                    <li className="button-whatsapp">
+                        <a href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+                    </li>
                     </ul>
-                <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+            </nav>
+            <div className="logo-mobile">
+                <a href="./">
+                    <img src={LogoMobile} alt="Amazonita Macramê logo" />
+                </a>
             </div>
-        </nav>
+        </div>
     );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import WhatsappWhite from '../assets/whatsapp-white.svg';
+import Whatsapp from '../assets/whatsapp.svg';
 import Email from '../assets/email.svg';
 import Logo from '../assets/logo.svg';
 import Facebook from '../assets/facebook.svg';
@@ -13,7 +13,7 @@ export function Footer() {
                 <div className="contact">
                     <h3>Entre em contato</h3>
                     <div className="whatsapp">
-                        <img src={WhatsappWhite} alt="Whatsapp logo" />
+                        <img src={Whatsapp} alt="Whatsapp logo" />
                         <a href="https://wa.me/32999723358?text=Olá!" rel="noreferrer" target="_blank">(32) 99972-3358</a>
                     </div>
                     <div className="email">
