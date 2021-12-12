@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/LandingPage.css'
+import ImageSlider from '../pages/Slider.jsx';
 import Whatsapp from '../assets/whatsapp.svg';
 import Carol from '../assets/carolamazonitamain.jpg';
 import Produto from '../assets/produtomain.jpg';
 import Produto2 from '../assets/produtomain2.jpg';
-// import Carol2 from '../assets/carolamazonitamain2.JPG';
+import {SliderData} from '../assets/SliderData';
 
 
 export function LandingPage() {
@@ -54,6 +55,10 @@ export function LandingPage() {
                             </div>
                         </div>
                     </div>
+                    <ImageSlider
+                    slides={SliderData}
+                    ></ImageSlider>
+
                 </div>
                 <div className="carrossel">
                     <img src="" alt="" />
