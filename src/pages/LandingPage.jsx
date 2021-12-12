@@ -18,15 +18,15 @@ export function LandingPage() {
                     <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
                 </div>
                 <div className="imagens-header">
-                    <img src={Carol} alt="" />
-                    <img src={Produto} alt="" />
-                    <img src={Produto2} alt="" />
+                    <div className="img1"><img src={Carol} alt="" /></div>
+                    <div className="img2"><img src={Produto} alt="" />
+                    <img src={Produto2} alt="" /></div>
                 </div>
             </section>
 
             <section className="carrosselmain">
                 <div className="texto-carrossel">
-                    <h1>Criamos peças de macramê autênticas de acordo com a sua necessidade</h1>
+                    <h2>Criamos peças de macramê autênticas de acordo com a sua necessidade</h2>
                     <p>Acreditamos que cada peça é única e gostamos de incluir nossos clientes no processo criativo. Todas as nossas criações recebem nomes de plantas, para reforçar nossos valores ligados ao meio ambiente. 
                     <br />
                     <br />

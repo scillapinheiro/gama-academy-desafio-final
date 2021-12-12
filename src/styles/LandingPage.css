@@ -1,0 +1,37 @@
+.bannermain {
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+}
+
+.texto-header {
+    margin: 0 95px;
+    text-align: start;
+}
+
+.texto-header h1 {
+    margin: 160px 0 24px 0;
+}
+
+.texto-header p {
+    font-size: 18px;
+    margin-bottom: 74px;
+}
+
+.imagens-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imagens-header .img1 img {
+    max-width: 319px;
+    height: auto;
+}
+
+.imagens-header .img2 img{
+    max-width: 185px;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between
+}
