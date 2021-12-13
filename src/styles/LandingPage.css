@@ -1,7 +1,8 @@
 .bannermain {
-    margin: 0 40px;
+    margin: 0 40px 196px 40px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);;
+    grid-template-columns: repeat(2, 1fr);
+    background: var(--background-yellow);
 }
 
 .texto-header {
@@ -21,6 +22,8 @@
 .imagens-header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    top: 106px;
 }
 
 .imagens-header .img1 img {
@@ -31,7 +34,106 @@
 .imagens-header .img2 img{
     max-width: 185px;
     height: auto;
-
     display: flex;
-    justify-content: space-between
+}
+
+.imagens-header .img2 img:nth-child(2){
+    margin-top: 5px;
+}
+
+.carrossel-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 105px 0;
+}
+
+.texto-carrossel {
+    margin: 0 135px;
+}
+
+.texto-carrossel h2, .texto-carrossel p{
+    margin-bottom: 20px;
+}
+
+.sugestoes h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.lista-sugestoes {
+    justify-content: space-between;
+    display: flex;
+    width: 414px;
+}
+
+.lista-sugestoes ul {
+    margin-left: 18px;
+    font: 400 16px 'Lexend', sans-serif;
+}
+
+.passos-venda {
+    margin: 0 405px 60px 405px;
+}
+
+.passos-venda h2{
+    margin-bottom: 54px;
+}
+
+.passos-venda .como-funciona1, .passos-venda .como-funciona2, 
+.passos-venda .como-funciona3, .passos-venda .como-funciona4 {
+    display: flex;
+    align-items: start;
+}
+
+.como-funciona img { 
+    margin-right: 61px;
+}
+
+.como-funciona h4 {
+    margin-bottom: 10px;
+}
+
+.como-funciona p {
+    margin-bottom: 40px;
+}
+
+.home-btn-pedido {
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.background-carol-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 40px 180px 40px;
+    background: var(--background-yellow);
+}
+
+.introducao-home {
+    margin: 92px 135px 0 195px;
+}
+
+.introducao-home h2 {
+    margin-bottom: 20px;
+}
+
+.introducao-home p {
+    margin-bottom: 40px;
+}
+
+.link {
+    font: 700 14px 'Sora', sans-serif;
+    color: var(--green);
+}
+
+.carol-foto2 {
+    display: flex;
+    justify-content: center;
+}
+
+.carol-foto2 img{
+    width: 368px;
+    height: auto;
+    position: relative;
+    top: 87px;
 }

@@ -32,7 +32,7 @@ export function LandingPage() {
                 </div>
             </section>
 
-            <section className="carrosselmain">
+            <section className="carrossel-main">
                 <div className="texto-carrossel">
                     <h2>Criamos peças de macramê autênticas de acordo com a sua necessidade</h2>
                     <p>Acreditamos que cada peça é única e gostamos de incluir nossos clientes no processo criativo. Todas as nossas criações recebem nomes de plantas, para reforçar nossos valores ligados ao meio ambiente. 
@@ -63,13 +63,15 @@ export function LandingPage() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="slider-componente">
                     <ImageSlider
                     slides={SliderData}
                     ></ImageSlider>
-                </div>
+                    </div>
             </section>
 
-            <section>
+            <section className="passos-venda">
                 <h2>Seu pedido: como funciona</h2>
                 <div className="como-funciona">
                     <div className="como-funciona1">
@@ -117,15 +119,13 @@ export function LandingPage() {
 
             <section className="background-carol-home">
                     <div className="introducao-home">
-                        <h1>
+                        <h2>
                             Oi, eu sou a Carol!
-                        </h1>
+                        </h2>
                         <p>
                             A idealizadora da Amazonita. A artesã por trás de todas as peças. Como uma pessoa apaixonada por artesanato, acredito que o macramê ajuda a expressar nossa personalidade e deixar os ambientes mais aconchegantes e artísticos.
-                            <br />
-                            <br />
-                            As peças são feitas manualmente, com muito cuidado e atenção aos detalhes. Outro ponto muito importante para mim é a sustentabilidade. Gosto de trabalhar com materiais naturais e evitar o uso de plástico.
                         </p>
+                        <a href="./About" className="link"> Saiba mais sobre a Amazonita &rarr; </a>
                     </div>
 
                     <div className="carol-foto2">
