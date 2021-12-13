@@ -3,10 +3,14 @@ import '../styles/LandingPage.css'
 import ImageSlider from '../pages/Slider.jsx';
 import Whatsapp from '../assets/whatsapp.svg';
 import Carol from '../assets/carolamazonitamain.jpg';
+import Carol2 from '../assets/carolamazonitamain2.jpg';
 import Produto from '../assets/produtomain.jpg';
 import Produto2 from '../assets/produtomain2.jpg';
 import {SliderData} from '../assets/SliderData';
-
+import Um from '../assets/pedido-um.svg'
+import Dois from '../assets/pedido-dois.svg'
+import Tres from '../assets/pedido-tres.svg'
+import Quatro from '../assets/pedido-quatro.svg'
 
 export function LandingPage() {
     return (
@@ -18,9 +22,13 @@ export function LandingPage() {
                     <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
                 </div>
                 <div className="imagens-header">
-                    <div className="img1"><img src={Carol} alt="" /></div>
-                    <div className="img2"><img src={Produto} alt="" />
-                    <img src={Produto2} alt="" /></div>
+                    <div className="img1">
+                        <img src={Carol} alt="" />
+                    </div>
+                    <div className="img2">
+                        <img src={Produto} alt="" />
+                        <img src={Produto2} alt="" />
+                    </div>
                 </div>
             </section>
 
@@ -58,19 +66,74 @@ export function LandingPage() {
                     <ImageSlider
                     slides={SliderData}
                     ></ImageSlider>
-
-                </div>
-                <div className="carrossel">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
                 </div>
             </section>
 
-            
+            <section>
+                <h2>Seu pedido: como funciona</h2>
+                <div className="como-funciona">
+                    <div className="como-funciona1">
+                        <img src={Um} alt="Passo Um" />
+                        <div>
+                            <h4>Entendendo a necessidade</h4>
+                            <p>
+                                Durante a conversa com o cliente, são apresentados os produtos e de acordo com a preferência, podem ser escolhidas a cor do fio e as opções específicas de cada produto, como tamanho e material do suporte. Também é possível sugerir opções em função do ambiente do cliente.  
+                            </p>
+                        </div>
+                    </div>
+                    <div className="como-funciona2">
+                        <img src={Dois} alt="Passo Dois" />
+                        <div>
+                            <h4>Criação</h4>
+                            <p>
+                                Nossos produtos são todos confeccionados com fio 100% algodão, conferindo maior qualidade e melhor sensação ao toque. São peças autorais, feitas manualmente, além de serem utilizados materiais reciclados e tratados, dando aparência mais rústica ao produto final.   
+                            </p>
+                        </div>
+                    </div>
+                    <div className="como-funciona3">
+                        <img src={Tres} alt="Passo Três" />
+                        <div>
+                            <h4>Pagamento</h4>
+                            <p>
+                                Aceitamos pagamentos por meio de boleto, PicPay, Pix, máquina de cartão ou dinheiro.  
+                            </p>
+                        </div>
+                    </div>
+                    <div className="como-funciona4">
+                        <img src={Quatro} alt="Passo Quatro" />
+                        <div>
+                            <h4>Entrega</h4>
+                            <p>
+                                As peças podem ser retiradas localmente ou por entrega (para residentes em Juiz de Fora/MG) ou enviadas para demais cidades do Brasil.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div className="home-btn-pedido">
+                <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+            </div>
+
+            <section className="background-carol-home">
+                    <div className="introducao-home">
+                        <h1>
+                            Oi, eu sou a Carol!
+                        </h1>
+                        <p>
+                            A idealizadora da Amazonita. A artesã por trás de todas as peças. Como uma pessoa apaixonada por artesanato, acredito que o macramê ajuda a expressar nossa personalidade e deixar os ambientes mais aconchegantes e artísticos.
+                            <br />
+                            <br />
+                            As peças são feitas manualmente, com muito cuidado e atenção aos detalhes. Outro ponto muito importante para mim é a sustentabilidade. Gosto de trabalhar com materiais naturais e evitar o uso de plástico.
+                        </p>
+                    </div>
+
+                    <div className="carol-foto2">
+                        <img src={Carol2} alt="Carol" />
+                    </div>
+                </section>
         </>
-    );
+    ); 
 }
 
 export default LandingPage;
