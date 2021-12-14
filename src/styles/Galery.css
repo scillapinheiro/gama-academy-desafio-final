@@ -1,0 +1,36 @@
+.background-galeria {
+    background: url(../assets/backgroung-faq.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo-galeria {
+    background-image: url(../assets/banner.svg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 40px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos-galeria{
+    margin: 56px 134px 54px 134px;
+}
+
+.fotos-galeria .catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.75rem;
+}
+
+.fotos-galeria .card{
+    width: 260px;
+}
+
+.fotos-galeria img{
+    width: 260px;
+    height: auto;
+}

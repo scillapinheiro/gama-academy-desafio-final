@@ -6,7 +6,7 @@ import Carol from '../assets/carolamazonitamain.jpg';
 import Carol2 from '../assets/carolamazonitamain2.jpg';
 import Produto from '../assets/produtomain.jpg';
 import Produto2 from '../assets/produtomain2.jpg';
-import {SliderData} from '../assets/SliderData';
+import { SliderData } from '../assets/SliderData';
 import Um from '../assets/pedido-um.svg'
 import Dois from '../assets/pedido-dois.svg'
 import Tres from '../assets/pedido-tres.svg'
@@ -39,11 +39,11 @@ export function LandingPage() {
             <section className="carrossel-main">
                 <div className="texto-carrossel">
                     <h2>Criamos peças de macramê autênticas de acordo com a sua necessidade</h2>
-                    <p>Acreditamos que cada peça é única e gostamos de incluir nossos clientes no processo criativo. Todas as nossas criações recebem nomes de plantas, para reforçar nossos valores ligados ao meio ambiente. 
-                    <br />
-                    <br />
-                    Em relação ao macramê como técnica, as possibilidades de criação são infinitas! Trabalhamos com produtos principalmente <strong>sob encomenda</strong>. Temos algumas peças variáveis a pronta entrega.<br />
-                    Trabalhamos também com <strong>aluguel para decoração de festas, eventos e casamentos.</strong></p>
+                    <p>Acreditamos que cada peça é única e gostamos de incluir nossos clientes no processo criativo. Todas as nossas criações recebem nomes de plantas, para reforçar nossos valores ligados ao meio ambiente.
+                        <br />
+                        <br />
+                        Em relação ao macramê como técnica, as possibilidades de criação são infinitas! Trabalhamos com produtos principalmente <strong>sob encomenda</strong>. Temos algumas peças variáveis a pronta entrega.<br />
+                        Trabalhamos também com <strong>aluguel para decoração de festas, eventos e casamentos.</strong></p>
                     <div className="sugestoes">
                         <h4>Sugestões de peças populares:</h4>
                         <div className="lista-sugestoes">
@@ -70,9 +70,9 @@ export function LandingPage() {
                 </div>
                 <div className="slider-componente">
                     <ImageSlider
-                    slides={SliderData}
+                        slides={SliderData}
                     ></ImageSlider>
-                    </div>
+                </div>
             </section>
 
             <section className="passos-venda">
@@ -83,7 +83,7 @@ export function LandingPage() {
                         <div>
                             <h4>Entendendo a necessidade</h4>
                             <p>
-                                Durante a conversa com o cliente, são apresentados os produtos e de acordo com a preferência, podem ser escolhidas a cor do fio e as opções específicas de cada produto, como tamanho e material do suporte. Também é possível sugerir opções em função do ambiente do cliente.  
+                                Durante a conversa com o cliente, são apresentados os produtos e de acordo com a preferência, podem ser escolhidas a cor do fio e as opções específicas de cada produto, como tamanho e material do suporte. Também é possível sugerir opções em função do ambiente do cliente.
                             </p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export function LandingPage() {
                         <div>
                             <h4>Criação</h4>
                             <p>
-                                Nossos produtos são todos confeccionados com fio 100% algodão, conferindo maior qualidade e melhor sensação ao toque. São peças autorais, feitas manualmente, além de serem utilizados materiais reciclados e tratados, dando aparência mais rústica ao produto final.   
+                                Nossos produtos são todos confeccionados com fio 100% algodão, conferindo maior qualidade e melhor sensação ao toque. São peças autorais, feitas manualmente, além de serem utilizados materiais reciclados e tratados, dando aparência mais rústica ao produto final.
                             </p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ export function LandingPage() {
                         <div>
                             <h4>Pagamento</h4>
                             <p>
-                                Aceitamos pagamentos por meio de boleto, PicPay, Pix, máquina de cartão ou dinheiro.  
+                                Aceitamos pagamentos por meio de boleto, PicPay, Pix, máquina de cartão ou dinheiro.
                             </p>
                         </div>
                     </div>
@@ -122,22 +122,22 @@ export function LandingPage() {
             </div>
 
             <section className="background-carol-home">
-                    <div className="introducao-home">
-                        <h2>
-                            Oi, eu sou a Carol!
-                        </h2>
-                        <p>
-                            A idealizadora da Amazonita. A artesã por trás de todas as peças. Como uma pessoa apaixonada por artesanato, acredito que o macramê ajuda a expressar nossa personalidade e deixar os ambientes mais aconchegantes e artísticos.
-                        </p>
-                        <a href="./About" className="link-about"> Saiba mais sobre a Amazonita &rarr; </a>
-                    </div>
+                <div className="introducao-home">
+                    <h2>
+                        Oi, eu sou a Carol!
+                    </h2>
+                    <p>
+                        A idealizadora da Amazonita. A artesã por trás de todas as peças. Como uma pessoa apaixonada por artesanato, acredito que o macramê ajuda a expressar nossa personalidade e deixar os ambientes mais aconchegantes e artísticos.
+                    </p>
+                    <a href="./About" className="link-about"> Saiba mais sobre a Amazonita &rarr; </a>
+                </div>
 
-                    <div className="carol-foto2">
-                        <img src={Carol2} alt="Carol" />
-                    </div>
-                </section>
+                <div className="carol-foto2">
+                    <img src={Carol2} alt="Carol" />
+                </div>
+            </section>
         </>
-    ); 
+    );
 }
 
 export default LandingPage;
