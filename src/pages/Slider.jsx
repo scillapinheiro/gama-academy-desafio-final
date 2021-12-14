@@ -26,9 +26,9 @@ export default function ImageSlider({ slides }) {
             <MdOutlineArrowForwardIos className="right-arrow" onClick={nextSlide} />
             {SliderData.map((slide, index) => {
                 return (
-                    <div 
-                    className={index === current ? 'slide active' : 'slide'} 
-                    key={index}
+                    <div
+                        className={index === current ? 'slide active' : 'slide'}
+                        key={index}
                     >
                         {index === current && (<img src={slide.image} alt='fotos dos residentes' className='image' />
                         )}

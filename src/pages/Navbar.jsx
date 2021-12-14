@@ -6,8 +6,8 @@ import Whatsapp from "../assets/whatsapp.svg";
 import "../styles/Navbar.css";
 
 export function Navbar() {
-    const [open, setOpen] = useState(false);
-    
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="navbar container">
       <div className="logo">
@@ -40,7 +40,7 @@ export function Navbar() {
         </ul>
 
         <div>
-          <button id="btn-mobile" onClick={()=> setOpen(!open)}><img src={MenuIcon} alt="Icone de menu" /></button>
+          <button id="btn-mobile" onClick={() => setOpen(!open)}><img src={MenuIcon} alt="Icone de menu" /></button>
         </div>
       </nav>
 
@@ -49,7 +49,7 @@ export function Navbar() {
           <img src={LogoMobile} alt="Amazonita Macramê logo" />
         </a>
       </div>
-      </div>
+    </div>
   );
 }
 

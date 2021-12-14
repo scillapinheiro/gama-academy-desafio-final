@@ -8,19 +8,8 @@ import Whatsapp from "../assets/whatsapp.svg";
 import Sustentavel from "../assets/sustentabilidade-icon.svg";
 import Cliente from "../assets/cliente-icon.svg";
 import Transparencia from "../assets/transparencia.svg";
-import { Api } from "../services/api";
 
 export function About() {
-  const [produtos, setProdutos] = useState([]);
-
-  useEffect(() => {
-    Api.get("/produtos").then((res) => {
-      setProdutos(res.data.data);
-    });
-  }, []);
-
-  console.log(produtos);
-
   return (
     <>
       <div>
@@ -48,11 +37,9 @@ export function About() {
             <img src={Carol} alt="Carol" />
           </div>
         </section>
-        {produtos?.map(({preco, descricao})=>(
-          preco
-        ))}
+
         <section className="nossa-historia">
-          <h2>Nossa história {produtos[0]?.nome}</h2>
+          <h2>Nossa história</h2>
           <p>
             A Amazonita Macramê surgiu em 2016 como projeto para criação de uma
             marca, exigido numa disciplina da faculdade de Publicidade e
