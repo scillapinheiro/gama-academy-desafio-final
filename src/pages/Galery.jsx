@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Galery.css'
 import { Api } from '../services/api';
 
@@ -7,7 +7,7 @@ export function Galery() {
 
     useEffect(() => {
         Api.get('/produtos').then((res) => {
-        setProdutos(res.data.data);
+        setProdutos(res.data);
         });
     }, []);
 
@@ -19,9 +19,9 @@ export function Galery() {
                     <p>{produtos[0]?.nome}</p>
             </div>
 
-            {produtos?.map(({ preco, descricao }) => (
+            {/* {produtos?.map(({ preco, descricao }) => (
           preco
-        ))}
+        ))} */}
         </>
     );
 }
