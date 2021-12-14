@@ -15,8 +15,8 @@ export function Navbar() {
           <img src={Logotipo} alt="Amazonita Macramê logo" />
         </a>
       </div>
-      <nav id="nav">
 
+      <nav id="nav">
         <ul id="menu" className={open ? "open-menu" : ""}>
           <li>
             <a href="./About">Sobre</a>
@@ -38,14 +38,18 @@ export function Navbar() {
             </a>
           </li>
         </ul>
+
+        <div>
+          <button id="btn-mobile" onClick={()=> setOpen(!open)}><img src={MenuIcon} alt="Icone de menu" /></button>
+        </div>
       </nav>
-        <button id="btn-mobile" onClick={()=> setOpen(!open)}><img src={MenuIcon} alt="Icone de menu" /></button>
+
       <div className="logo-mobile">
         <a href="./">
           <img src={LogoMobile} alt="Amazonita Macramê logo" />
         </a>
       </div>
-    </div>
+      </div>
   );
 }
 

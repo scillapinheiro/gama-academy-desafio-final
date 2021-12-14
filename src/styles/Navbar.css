@@ -28,29 +28,51 @@
   gap: 3rem;
 }
 
+.logo-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 1080px) {
-  #btn-mobile {
+    #btn-mobile {
     display: none;
   }
 }
 
 @media screen and (max-width: 1079px) {
+  .navbar.container {
+    padding: 0 40px;
+  }
+
+  .nav-mobile {
+    display: flex;
+  }
+
   #menu {
     display: none;
   }
 
   #menu.open-menu {
+    width: auto;
+    height: 100%;
     display: initial;
     position: absolute;
-    background-color: lavenderblush;
+    background-color: #FFF;
     padding: 20px;
-    right: 42px;
+    left: 20px;
     top: 70px;
     z-index: 999;
   }
 
-  #menu.open-menu li{
-      padding-bottom: 10px;
+  #menu.open-menu li {
+      margin-bottom: 30px;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+  
+  .navbar.container .logo {
+    display: none;
   }
 }
 
@@ -71,10 +93,6 @@
   color: var(--green-hover);
 }
 
-#menu li.button-whatsapp {
-  /* margin-left: 61px; */
-}
-
 #menu li.button-whatsapp a {
   font: 700 11px "Sora", sans-serif;
   color: #fff;
@@ -84,40 +102,8 @@
   color: #fff;
 }
 
-.logo-mobile {
-  display: none;
-}
-
-/* Responsive */
-@media (max-width: 834px) {
+@media screen and (max-width: 428px) {
   .navbar.container {
-    padding: 0 40px;
+    padding: 0 20px;
   }
-
-  /* .navbar.container .logo {
-        display: none;
-    }
-
-    #btn-mobile {
-        display: block;
-    }
-
-    #nav.active #menu{
-        display: flex;
-    }
-
-    #menu {
-        display: none;
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0;
-    }
-
-    .logo-mobile {
-        display: block;
-
-        width: 185px;
-        height: auto;
-    } */
 }
