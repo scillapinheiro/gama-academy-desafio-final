@@ -85,7 +85,7 @@
 
 .nossos-valores .valores {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 185px;
 }
 
@@ -121,10 +121,11 @@
 /* Responsive */
 @media (max-width: 835px) and (min-width: 430px) {
     .tituloabout {
-        background-image: url(../assets/banner.svg);
+        background: url(../assets/banner.svg);
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        margin: 0 40px;
+        margin: 0;
         height: 160px;
         display: flex;
         align-items: center;
@@ -132,14 +133,14 @@
     }
 
     .background-carol-about {
-        margin: 0 80px;
+        margin: 0 0 0 80px;
 
         display: flex;
         flex-wrap: wrap-reverse;
     }
 
     .introducao-about {
-        margin: 40px 0 40px 80px;
+        margin: 40px 80px 40px 80px;
     }
 
     .carol-foto img {
@@ -190,11 +191,18 @@
 
 @media (max-width: 429px) {
     .tituloabout {
+        background-image: url(../assets/banner.svg);
+        background-size: cover;
+        background-position: center;
         margin: 0;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .background-carol-about {
-        margin: 0 25px 81px 25px;
+        margin: 0 0 81px 25px;
         display: flex;
         flex-wrap: wrap-reverse;
     }
@@ -212,6 +220,11 @@
 
     .introducao-about h1 {
         font-size: 32px;
+        margin: 0 40px 30px 0;
+    }
+    
+    .introducao-about p {
+        margin: 0 40px 30px 0;
     }
 
     .nossa-historia {

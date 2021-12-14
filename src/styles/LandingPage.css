@@ -1,8 +1,11 @@
 .bannermain {
-    margin: 0 40px 196px 40px;
+    margin: 0 40px 250px 40px;
+    background: url(../assets/banner-home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: var(--background-yellow);
+    justify-items: end;
 }
 
 .texto-header {
@@ -20,39 +23,56 @@
 }
 
 .imagens-header {
+    max-width: 550px;
+    height: auto;
+    margin-right: 95px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: relative;
     top: 106px;
+    gap: 32px;
+}
+
+.imagens-header .img1,
+.imagens-header .img2 {
+    display: flex;
+    flex-direction: column;
 }
 
 .imagens-header .img1 img {
-    max-width: 319px;
+    width: 319px;
     height: auto;
 }
 
 .imagens-header .img2 img{
-    max-width: 185px;
+    width: 185px;
     height: auto;
-    display: flex;
 }
 
-.imagens-header .img2 img:nth-child(2){
-    margin-top: 5px;
+.imagens-header .img2 .gap {
+    margin-top: 32px;
 }
 
 .carrossel-main {
+    margin-bottom: 136px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 105px 0;
 }
 
 .texto-carrossel {
     margin: 0 135px;
 }
 
-.texto-carrossel h2, .texto-carrossel p{
+.texto-carrossel h2,
+.texto-carrossel p {
     margin-bottom: 20px;
+}
+
+.sugestoes {
+    width: 450px;
+    height: auto;
+    background: var(--background-yellow);
+    padding: 10px;
 }
 
 .sugestoes h4 {
@@ -61,14 +81,21 @@
 }
 
 .lista-sugestoes {
-    justify-content: space-between;
     display: flex;
-    width: 414px;
+    justify-content: space-between;
 }
 
 .lista-sugestoes ul {
-    margin-left: 18px;
     font: 400 16px 'Lexend', sans-serif;
+    margin-left: 18px;
+}
+
+.lista-sugestoes ul li {
+    list-style: disc;
+}
+
+.slider-componente {
+    margin-right: 149px;
 }
 
 .passos-venda {
@@ -79,8 +106,10 @@
     margin-bottom: 54px;
 }
 
-.passos-venda .como-funciona1, .passos-venda .como-funciona2, 
-.passos-venda .como-funciona3, .passos-venda .como-funciona4 {
+.passos-venda .como-funciona1,
+.passos-venda .como-funciona2, 
+.passos-venda .como-funciona3,
+.passos-venda .como-funciona4 {
     display: flex;
     align-items: start;
 }
@@ -103,10 +132,10 @@
 }
 
 .background-carol-home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     margin: 0 40px 180px 40px;
     background: var(--background-yellow);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .introducao-home {
@@ -121,7 +150,7 @@
     margin-bottom: 40px;
 }
 
-.link {
+.link-about {
     font: 700 14px 'Sora', sans-serif;
     color: var(--green);
 }
@@ -129,6 +158,7 @@
 .carol-foto2 {
     display: flex;
     justify-content: center;
+    margin-right: 195px;
 }
 
 .carol-foto2 img{

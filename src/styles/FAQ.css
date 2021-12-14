@@ -1,5 +1,5 @@
 .backgroundfaq {
-    background-image: url(../assets/backgroung-faq.svg);
+    background: url(../assets/backgroung-faq.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -54,11 +54,15 @@
 /* Responsive */
 @media (max-width: 834px) {
     .titulofaq {
-        margin: 0 0px 76px 0px;
+        margin-bottom: 30px;
     }
 
-    .textofaq {
+    .textofaq{
         margin: 0 150px;
+    }
+
+    .textofaq h4 {
+        margin-top: 0;
     }
 }
 

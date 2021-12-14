@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 538px;
 
     @media (max-width: 500px) {
         height: 400px;    
@@ -14,9 +14,8 @@
 .image {
     justify-self: center;
     width: 538px;
-
     max-height: 70%;
-    border-radius: 10px;
+
     @media (max-width: 800px) {
         width: 100%        
     }
@@ -26,11 +25,15 @@
     position: absolute;
     top: 50%;
     right: 32px;
-    font-size: 3rem;
-    color: #0c173d;
+    border: 2px solid var(--green-hover);
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 2.5rem;
+    color: var(--green-hover);
     z-index: 1;
     cursor: pointer;
     user-select: none;
+
     @media (max-width: 800px) {
         right: 5%;      
     }
@@ -40,8 +43,11 @@
     position: absolute;
     top: 50%;
     left: 32px;
-    font-size: 3rem;
-    color: #0c173d;
+    border: 2px solid var(--green-hover);
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 2.5rem;
+    color: var(--green-hover);
     z-index: 1;
     cursor: pointer;
     user-select: none;

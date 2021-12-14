@@ -19,7 +19,7 @@ export function Footer() {
                 Logo
             }
 
-                alt="Amazonita Macramê logo" /> </div> <div className="social-media"> <h3>Redes sociais</h3> <div class="social-media icons"> <a className="facebook-icon" href="https://www.facebook.com/amazonita.macrame/" rel="noreferrer" target="_blank"><img src={
+                alt="Amazonita Macramê logo" /> </div> <div className="social-media"> <h3>Redes sociais</h3> <div className="social-media icons"> <a className="facebook-icon" href="https://www.facebook.com/amazonita.macrame/" rel="noreferrer" target="_blank"><img src={
                     Facebook
                 }
 

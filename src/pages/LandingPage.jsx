@@ -26,8 +26,12 @@ export function LandingPage() {
                         <img src={Carol} alt="" />
                     </div>
                     <div className="img2">
-                        <img src={Produto} alt="" />
-                        <img src={Produto2} alt="" />
+                        <div>
+                            <img src={Produto} alt="" />
+                        </div>
+                        <div className="gap">
+                            <img src={Produto2} alt="" />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -125,7 +129,7 @@ export function LandingPage() {
                         <p>
                             A idealizadora da Amazonita. A artesã por trás de todas as peças. Como uma pessoa apaixonada por artesanato, acredito que o macramê ajuda a expressar nossa personalidade e deixar os ambientes mais aconchegantes e artísticos.
                         </p>
-                        <a href="./About" className="link"> Saiba mais sobre a Amazonita &rarr; </a>
+                        <a href="./About" className="link-about"> Saiba mais sobre a Amazonita &rarr; </a>
                     </div>
 
                     <div className="carol-foto2">

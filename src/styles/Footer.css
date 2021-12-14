@@ -113,7 +113,7 @@ a {
     }
 
     .social-media.icons {
-        gap: .7rem
+        gap: 1rem
     }
 }
 
@@ -135,5 +135,9 @@ a {
     .footer.container .logo img {
         max-width: 240px;
         height: auto;
+    }
+
+    .social-media.icons {
+        gap: 2rem
     }
 }
