@@ -28,10 +28,7 @@
   gap: 3rem;
 }
 
-li .inicio-botao a {
-  display: none;
-}
-
+li.inicio-botao,
 .logo-mobile {
   display: none;
 }
@@ -71,10 +68,7 @@ li .inicio-botao a {
       margin-bottom: 30px;
   }
 
-  li .inicio-botao a {
-    display: block;
-  }
-
+  li.inicio-botao,
   .logo-mobile {
     display: block;
   }
