@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Galery.css'
 import Whatsapp from '../assets/whatsapp.svg';
+import Previa9 from '../assets/previa9.JPG'
+import Previa10 from '../assets/previa10.JPG'
+import Previa11 from '../assets/previa11.JPG'
 import { Api } from '../services/api';
 
 export function Galery() {
@@ -33,9 +36,19 @@ export function Galery() {
                                 <p>{categoria1} {preco1} {desc_produto}</p>
                                 <p>{categoria2} {preco2}</p>
                             </div>
-
                         ))}
-
+                        <div className="card">
+                            <img src={Previa9} alt="Cartões de visita e pedra Amazonita" />
+                            <p>Cartões de visita e pedra Amazonita</p>
+                        </div>
+                        <div className="card">
+                            <img src={Previa10} alt="Cavilhas de madeira usadas nas peças" />
+                            <p>Cavilhas de madeira usadas nas peças</p> 
+                        </div>
+                        <div className="card">
+                            <img src={Previa11} alt="Cores de fios disponíveis" />
+                            <p>Cores de fios disponíveis</p>
+                        </div>
                     </div>
                 </>
             </div>

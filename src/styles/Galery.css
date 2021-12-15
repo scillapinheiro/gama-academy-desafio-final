@@ -27,8 +27,9 @@
     gap: 2.75rem;
 }
 
-.card {
+.catalogo .card {
     width: 260px;
+    height: auto;
 }
 
 .fotos-galeria img {

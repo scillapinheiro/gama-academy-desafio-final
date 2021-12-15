@@ -183,7 +183,8 @@
     justify-content: center;
 }
 
-.previa-fotos img {
+.previa-fotos .card,
+.previa-fotos .card img {
     width: 260px;
     height: auto;
 }
