@@ -179,7 +179,7 @@
     display:flex;
     flex-wrap: wrap;
     gap: 2.75rem;
-    margin: 60px 0 111px 0;
+    margin: 60px 40px 111px 40px;
     justify-content: center;
 }
 

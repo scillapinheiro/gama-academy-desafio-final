@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SliderData } from '../assets/SliderData';
+import { SliderData } from '../components/SliderData';
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md';
 import '../styles/Slider.scss';
 

@@ -6,7 +6,7 @@ import Carol from '../assets/carolamazonitamain.jpg';
 import Carol2 from '../assets/carolamazonitamain2.jpg';
 import Produto from '../assets/produtomain.jpg';
 import Produto2 from '../assets/produtomain2.jpg';
-import { SliderData } from '../assets/SliderData';
+import { SliderData } from '../components/SliderData';
 import Um from '../assets/pedido-um.svg'
 import Dois from '../assets/pedido-dois.svg'
 import Tres from '../assets/pedido-tres.svg'
