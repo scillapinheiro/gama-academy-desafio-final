@@ -18,6 +18,9 @@ export function Navbar() {
 
       <nav id="nav">
         <ul id="menu" className={open ? "open-menu" : ""}>
+          <li className="inicio-botao">
+            <a href="./">Início</a>
+          </li>
           <li>
             <a href="./About">Sobre</a>
           </li>
