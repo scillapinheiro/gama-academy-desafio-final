@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy.png" width="50%">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desenvolvedores">Desenvolvedores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-designer">Designers</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
+</p>
 
-## Available Scripts
+<p align="center">
+  <img alt="Grama XP 39" src="https://img.shields.io/static/v1?label=xp&message=39&color=success&labelColor=grey">
+  
+  <img alt="Stack Hacker" src="https://img.shields.io/static/v1?label=stack&message=hacker&color=success&labelColor=grey">
+  
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&labelColor=grey">
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://github.com/scillapinheiro/gama-academy-desafio-final/blob/main/amazonita-mockup.png" width="100%">
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 align="center">Desafio Final</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O nosso desafio era criar um produto do zero. Uma apresentação de portfólio navegável e interativo de um novo empreendimento (cervejaria artesanal, roupas, livros,
+por exemplo). Nós escolhemos a Amazonita Macramê.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="https://github.com/scillapinheiro/gama-academy-desafio-final/blob/main/src/assets/logotipo.svg" width="40%">
+</p>
 
-### `npm run build`
+## :computer: Projeto
+A Amazonita Macramê faz peças decorativas em macramê com afeto e cuidado para levar carinho e aconchego para cada cantinho!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :green_heart: Desenvolvedores
+[<img src="https://avatars.githubusercontent.com/u/69371906?v=4" width=115> <br> <sub>Priscilla Pinheiro</sub>](https://github.com/scillapinheiro) | [<img src="https://avatars.githubusercontent.com/u/89922059?v=4" width=115> <br> <sub>Bernardo Nacif</sub>](https://github.com/bernardonacif) | [<img src="https://avatars.githubusercontent.com/u/90877541?v=4" width=115> <br> <sub>Raphael Sá</sub>](https://github.com/Raphael-Sa) |
+| :---: | :---: | :---: |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## :rocket: Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :eyes: Site de demonstração
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Você pode acessar o site [aqui.](https://amazonitamacrame.vercel.app/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :green_heart: Designers
+[<img src="https://guvboas.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1eb3bd88-808f-47e2-bf14-a4865caacce4%2FDesign_sem_nome.gif?table=block&id=3c37a191-6113-49a3-a0db-2402caee5d39&spaceId=ee385ca3-70fa-4604-ae1c-a8c66510a328&userId=&cache=v2" width=115> <br> <sub>Gustavo Vilas Boas</sub>](https://guvboas.notion.site/guvboas/Essa-p-gina-um-portf-lio-f9cdea4731a64890aca82b73dd878075) | [<img src="-" width=115> <br> <sub>Isabella Cardoso</sub>](-) | [<img src="https://cdn.dribbble.com/users/3653949/avatars/normal/35eba272bdc0b8b948302e6768ea927d.png?1576032183" width=115> <br> <sub>Murilo Hiratomi</sub>](https://dribbble.com/murilo_y) | [<img src="https://media-exp1.licdn.com/dms/image/C4D03AQGvgIO2iw4Ycw/profile-displayphoto-shrink_200_200/0/1553696121611?e=1645056000&v=beta&t=pIfFSKunT9892OumH7RS8m-LiS-yMhOPSmRyToou7f4" width=115> <br> <sub>Ricardo Ayupe</sub>](https://www.linkedin.com/in/ricardoayupe?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACsdOMsBj7JsA_py8YKWU9B2OeeYrbyScDg&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BlBmaXT3TSBSMOInQ%2FiXftA%3D%3D) |
+| :---: | :---: | :---: | :---: |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :bookmark: Layout
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/zn7mofZJ4kVidwEiOhc0d4/Grupo-8---Desafio-Chefão-team-library). Lembrando que você precisa ter uma conta no [Figma](https://www.figma.com/) para acessá-lo.
