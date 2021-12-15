@@ -38,12 +38,12 @@ export function Galery() {
                             </div>
                         ))}
                         <div className="card">
-                            <img src={Previa9} alt="Cartões de visita e pedra Amazonita" />
-                            <p>Cartões de visita e pedra Amazonita</p>
+                            <img src={Previa9} alt="Cavilhas de madeira usadas nas peças" />
+                            <p>Cavilhas de madeira usadas nas peças</p>
                         </div>
                         <div className="card">
-                            <img src={Previa10} alt="Cavilhas de madeira usadas nas peças" />
-                            <p>Cavilhas de madeira usadas nas peças</p> 
+                            <img src={Previa10} alt="Cartões de visita e pedra Amazonita" />
+                            <p>Cartões de visita e pedra Amazonita</p> 
                         </div>
                         <div className="card">
                             <img src={Previa11} alt="Cores de fios disponíveis" />
