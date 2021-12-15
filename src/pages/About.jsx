@@ -107,7 +107,7 @@ export function About() {
           <h3>Se interessou pelo que oferecemos?</h3>
           <a
             className="button-whatsapp"
-            href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
+            href="https://wa.me/5532999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
             rel="noreferrer"
             target="_blank"
           >

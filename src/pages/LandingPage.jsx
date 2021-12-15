@@ -28,7 +28,7 @@ export function LandingPage() {
                 <div className="texto-header">
                     <h1>Amazonita Macramê</h1>
                     <p>Peças decorativas em macramê, produzidas artesanalmente com fios 100% algodão, de alta qualidade, trazendo design moderno, artístico e único aos ambientes</p>
-                    <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+                    <a className="button-whatsapp" href="https://wa.me/5532999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
                 </div>
                 <div className="imagens-header">
                     <div className="img1">
@@ -127,7 +127,7 @@ export function LandingPage() {
             </section>
 
             <div className="home-btn-pedido">
-                <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+                <a className="button-whatsapp" href="https://wa.me/5532999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
             </div>
 
             <section className="background-carol-home">

@@ -14,7 +14,7 @@ export function Footer() {
                     <h3>Entre em contato</h3>
                     <div className="whatsapp">
                         <img src={Whatsapp} alt="Whatsapp logo" />
-                        <a href="https://wa.me/32999723358?text=Olá!" rel="noreferrer" target="_blank">(32) 99972-3358</a>
+                        <a href="https://wa.me/5532999723358?text=Olá!" rel="noreferrer" target="_blank">(32) 99972-3358</a>
                     </div>
                     <div className="email">
                         <img src={Email} alt="Email" />

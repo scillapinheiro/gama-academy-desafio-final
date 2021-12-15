@@ -31,7 +31,7 @@ export function FAQ() {
 
                 <div className="duvidalink">
                     <h3>Ainda tem alguma dúvida?</h3>
-                    <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Tenho%20uma%20dúvida." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Fale conosco</a> </div>
+                    <a className="button-whatsapp" href="https://wa.me/5532999723358?text=Olá!%20Tenho%20uma%20dúvida." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Fale conosco</a> </div>
             </div>
         </>
     );

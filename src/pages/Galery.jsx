@@ -42,7 +42,7 @@ export function Galery() {
 
             <div className="duvidalink">
                 <h3>Gostou de algum trabalho?</h3>
-                <a className="button-whatsapp" href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
+                <a className="button-whatsapp" href="https://wa.me/5532999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." rel="noreferrer" target="_blank"><img src={Whatsapp} alt="Whatsapp logo" />Faça seu pedido</a>
             </div>
         </>
     );

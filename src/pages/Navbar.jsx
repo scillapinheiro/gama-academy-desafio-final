@@ -29,7 +29,7 @@ export function Navbar() {
           </li>
           <li className="button-whatsapp">
             <a
-              href="https://wa.me/32999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
+              href="https://wa.me/5532999723358?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
               rel="noreferrer"
               target="_blank"
             >
