@@ -45,13 +45,13 @@
     justify-content: center;
 }
 
-.small-images .pedra-foto {
+.pedra-foto {
     width: 199px;
     height: auto;
     position: absolute;
 }
 
-.small-images .selo-amazonita {
+.selo-amazonita {
     width: 179.85px;
     height: auto;
     position: relative;
@@ -83,25 +83,25 @@
     margin-bottom: 50px;
 }
 
-.nossos-valores .valores {
+.valores {
     display: flex;
     justify-content: space-between;
     margin: 0 185px;
 }
 
-.nossos-valores  .valores-icons {
-    width: 359px;
+.valores-icons {
+    width: 365px;
     height: auto;
     align-items: center;
     text-align: center;
 }
 
-.nossos-valores  .valores-icons h4{
+.valores-icons h4{
     margin: 20px 0px;
     color: var(--light-green);
 }
 
-.nossos-valores  .valores-icons p {
+.valores-icons p {
     font-size: 14px;
 }
 
@@ -119,7 +119,7 @@
 
 
 /* Responsive */
-@media (max-width: 835px) and (min-width: 430px) {
+@media screen and (max-width: 835px) {
     .tituloabout {
         background: url(../assets/banner.svg);
         background-repeat: no-repeat;
@@ -162,12 +162,12 @@
         margin-bottom: 230px;
     }
 
-    .small-images .pedra-foto {
+    .pedra-foto {
         width: 322px;
         height: auto;
     }
 
-    .small-images .selo-amazonita {
+    .selo-amazonita {
         width: 180px;
         height: 180px;
         top: 160px;
@@ -178,33 +178,23 @@
         display: none;
     }
 
-    .nossos-valores .valores {
+    .valores {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin: 0 40px 119px 40px;
+        gap: 4rem;
     }
 
-    .nossos-valores .valores-icons {
-        width: 230px;
+    .valores-icons {
+        width: 300px;
         height: auto;
-        justify-content: space-between;
     }
 }
 
-@media (max-width: 429px) {
-    .tituloabout {
-        background-image: url(../assets/banner.svg);
-        background-size: cover;
-        background-position: center;
-        margin: 0;
-        height: 160px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
+@media screen and (max-width: 429px) {
     .background-carol-about {
         margin: 0 0 81px 25px;
-        display: flex;
-        flex-wrap: wrap-reverse;
     }
 
     .carol-foto img {
@@ -235,21 +225,15 @@
         justify-content: start;
     }
 
-    .small-images .pedra-foto {
-        width: 322px;
-        height: auto;
+    .pedra-foto {
         left: -30px;
     }
 
-    .small-images .selo-amazonita {
+    .selo-amazonita {
         width: 130px;
         height: 130px;
         top: 60px;
         left: 245px;
-    }
-
-    .banner-about {
-        display: none;
     }
 
     .nossos-valores {
@@ -260,22 +244,12 @@
         margin-bottom: 30px;
     }
 
-    .nossos-valores .valores {
+    .valores {
         margin: 0 40px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .nossos-valores .valores-icons {
-        width: 300px;
-        height: auto;
-
-        margin-bottom: 50px;
     }
 
     .about-pedido h3 {
-        margin-top: 30px;
+        margin-top: 84px;
     }
 }
 

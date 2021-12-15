@@ -9,7 +9,7 @@
 }
 
 .texto-header {
-    margin: 0 95px;
+    margin: 0 95px 104px 95px;
     text-align: start;
 }
 
@@ -33,23 +33,25 @@
     gap: 32px;
 }
 
-.imagens-header .img1,
-.imagens-header .img2 {
+.img1,
+.img2 {
     display: flex;
     flex-direction: column;
 }
 
-.imagens-header .img1 img {
+.img1 img {
     width: 319px;
     height: auto;
+    filter: drop-shadow(0px 5px 22px rgba(58, 43, 9, 0.3));
 }
 
-.imagens-header .img2 img{
+.img2 img{
     width: 185px;
     height: auto;
+    filter: drop-shadow(0px 5px 22px rgba(58, 43, 9, 0.3));
 }
 
-.imagens-header .img2 .gap {
+.img2 .gap {
     margin-top: 32px;
 }
 
@@ -106,10 +108,10 @@
     margin-bottom: 54px;
 }
 
-.passos-venda .como-funciona1,
-.passos-venda .como-funciona2, 
-.passos-venda .como-funciona3,
-.passos-venda .como-funciona4 {
+.como-funciona1,
+.como-funciona2, 
+.como-funciona3,
+.como-funciona4 {
     display: flex;
     align-items: flex-start;
 }
@@ -139,7 +141,7 @@
 }
 
 .introducao-home {
-    margin: 92px 135px 0 195px;
+    margin: 92px 135px 88px 195px;
 }
 
 .introducao-home h2 {
@@ -157,30 +159,31 @@
 
 .carol-foto2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-right: 195px;
 }
 
-.carol-foto2 img{
+.carol-foto2 img {
     width: 368px;
-    height: 494px;
+    height: auto;
     position: relative;
     top: 87px;
+    filter: drop-shadow(0px 5px 22px rgba(58, 43, 9, 0.3));
 }
 
-.previa-galeria{
+.previa-galeria {
    text-align: center;
 }
 
-.previa-fotos{
+.previa-fotos {
     display:flex;
     flex-wrap: wrap;
     gap: 2.75rem;
-    margin: 60px 134px 111px 134px;
+    margin: 60px 0 111px 0;
     justify-content: center;
 }
 
-.previa-fotos img{
+.previa-fotos img {
     width: 260px;
     height: auto;
 }
@@ -189,14 +192,14 @@
     margin-bottom: 130px;
 }
 
-.link-galery a{
+.link-galery a {
     font: 700 14px 'Sora', sans-serif;
     color: var(--green);
 }
 
 
 /* Responsivo */
-@media (max-width: 835px) {
+@media screen and (max-width: 835px) {
     .bannermain,
     .carrossel-main {
         display: flex;
@@ -204,7 +207,15 @@
         justify-content: center;
     }
 
-    .bannermain .imagens-header {
+    .texto-header {
+        margin-bottom: 0;
+    }
+
+    .texto-header h1 {
+        margin-top: 64px;
+    }
+
+    .imagens-header {
         margin-right: 0;
     }
 
@@ -243,19 +254,23 @@
     }
 }
 
-@media (max-width: 429px) {
-    .bannermain .imagens-header {
+@media screen and (max-width: 429px) {
+    .imagens-header {
         align-items: center;
     }
 
-    .imagens-header .img1 img {
+    .img1 img {
         width: 251px;
         height: auto;
     }
 
-    .imagens-header .img2 img{
+    .img2 img{
         width: 185px;
         height: auto;
+    }
+
+    .carrossel-main {
+        margin-bottom: 49px;
     }
 
     .texto-carrossel h2 {
@@ -279,6 +294,8 @@
     }
 
     .carol-foto2 img {
+        width: 354px;
+        height: auto;
         margin: 0;
         left: -150px;
     }

@@ -17,25 +17,26 @@
 }
 
 .fotos-galeria {
-    margin: 56px 134px 54px 134px;
+    margin: 56px 0;
 }
 
-.fotos-galeria .catalogo {
+.catalogo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.75rem;
 }
 
-.fotos-galeria .card{
+.card {
     width: 260px;
 }
 
-.fotos-galeria img{
+.fotos-galeria img {
     width: 260px;
     height: 390px;
 }
 
-.info-produto1, .info-produto2{
+.info-produto1,
+.info-produto2 {
     display: flex;
 }
