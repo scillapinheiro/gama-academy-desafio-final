@@ -34,3 +34,7 @@
     width: 260px;
     height: auto;
 }
+
+.info-produto1, .info-produto2{
+    display: flex;
+}

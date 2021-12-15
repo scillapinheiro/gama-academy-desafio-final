@@ -11,6 +11,15 @@ import Um from '../assets/pedido-um.svg'
 import Dois from '../assets/pedido-dois.svg'
 import Tres from '../assets/pedido-tres.svg'
 import Quatro from '../assets/pedido-quatro.svg'
+import Previa1 from '../assets/previa1.jpeg'
+import Previa2 from '../assets/previa2.jpeg'
+import Previa3 from '../assets/previa3.jpeg'
+import Previa4 from '../assets/previa4.jpeg'
+import Previa5 from '../assets/previa5.jpeg'
+import Previa6 from '../assets/previa6.jpeg'
+import Previa7 from '../assets/previa7.jpeg'
+import Previa8 from '../assets/previa8.jpeg'
+
 
 export function LandingPage() {
     return (
@@ -136,6 +145,23 @@ export function LandingPage() {
                     <img src={Carol2} alt="Carol" />
                 </div>
             </section>
+
+            <div className="previa-galeria">
+                <h2>Galeria</h2>
+                <div className="previa-fotos">
+                    <img src={Previa1} />
+                    <img src={Previa2} />
+                    <img src={Previa3} />
+                    <img src={Previa4} />
+                    <img src={Previa5} />
+                    <img src={Previa6} />
+                    <img src={Previa7} />
+                    <img src={Previa8} />
+                </div>
+                <div className="link-galery">
+                <a href="./Galery"> Ver galeria completa &rarr; </a>
+                </div>
+            </div>
         </>
     );
 }

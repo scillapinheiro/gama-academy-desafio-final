@@ -167,3 +167,29 @@
     position: relative;
     top: 87px;
 }
+
+.previa-galeria{
+   text-align: center;
+}
+
+.previa-fotos{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2.75rem;
+    margin: 60px 136px 111px 135px;
+    justify-content: center;
+}
+
+.previa-fotos img{
+    width: 260px;
+    height: auto;
+}
+
+.link-galery {
+    margin-bottom: 130px;
+}
+
+.link-galery a{
+    font: 700 14px 'Sora', sans-serif;
+    color: var(--green);
+}

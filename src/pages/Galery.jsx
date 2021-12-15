@@ -26,14 +26,15 @@ export function Galery() {
             <div className="fotos-galeria">
                 <>
                     <div className="catalogo">
-                        {produtos?.map(({ codigo, nome, categoria, tamanho, preco, link_img }) => (
+                        {produtos?.map(({ id_produto, produto, categoria1, categoria2, id_categoria1, id_categoria2, preco1, desc_produto, preco2, link_img }) => (
 
-                            <div key={codigo} className="card">
-                                <img src={link_img + ".jpg"} alt={"produto" + codigo}></img>
-                                <p>{nome}</p>
-                                <p>{categoria}</p>
-                                <p>{tamanho}</p>
-                                <p>R$ {preco}</p>
+                            <div key={id_produto} className="card">
+                                <img src={link_img} alt={"produto" + id_produto}></img>
+                                <p>{produto}</p>
+                                    <p>{categoria1}</p>
+                                    <p>{preco1}{desc_produto}</p>
+                                    <p>{categoria2}</p>
+                                    <p>{preco2}</p>
                             </div>
 
                         ))}
