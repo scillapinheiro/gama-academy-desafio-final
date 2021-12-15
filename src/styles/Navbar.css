@@ -102,6 +102,13 @@
   color: #fff;
 }
 
+@media screen and (max-width: 834px) {
+  #menu.open-menu {
+    left: 0;
+  }
+  
+}
+
 @media screen and (max-width: 428px) {
   .navbar.container {
     padding: 0 20px;

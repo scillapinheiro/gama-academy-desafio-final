@@ -16,13 +16,14 @@
     justify-content: center;
 }
 
-.fotos-galeria{
+.fotos-galeria {
     margin: 56px 134px 54px 134px;
 }
 
-.fotos-galeria .catalogo{
+.fotos-galeria .catalogo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2.75rem;
 }
 
@@ -32,7 +33,7 @@
 
 .fotos-galeria img{
     width: 260px;
-    height: auto;
+    height: 390px;
 }
 
 .info-produto1, .info-produto2{

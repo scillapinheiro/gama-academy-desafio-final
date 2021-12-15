@@ -149,14 +149,38 @@ export function LandingPage() {
             <div className="previa-galeria">
                 <h2>Galeria</h2>
                 <div className="previa-fotos">
-                    <img src={Previa1} />
-                    <img src={Previa2} />
-                    <img src={Previa3} />
-                    <img src={Previa4} />
-                    <img src={Previa5} />
-                    <img src={Previa6} />
-                    <img src={Previa7} />
-                    <img src={Previa8} />
+                    <div className="card">
+                        <img src={Previa1} alt="Painel Begônia" />
+                        <p>Painel Begônia</p>
+                    </div>
+                        <div className="card">
+                        <img src={Previa2} alt="Mandala Hortênsia" />
+                    <p>Mandala Hortênsia</p>
+                    </div>
+                    <div className="card">
+                        <img src={Previa3} alt="Painel Lírio" />
+                        <p>Painel Lírio</p>
+                    </div>
+                    <div className="card">
+                        <img src={Previa4} alt="Painel Filodendro" />
+                        <p>Painel Filodendro</p>
+                    </div>
+                    <div className="card">
+                        <img src={Previa5} alt="Painel Calla" />
+                        <p>Painel Calla</p>
+                    </div>
+                    <div className="card">
+                        <img src={Previa6} alt="Suporte de plantas com franjas" />
+                        <p>Suporte de plantas com franjas</p>
+                    </div>
+                    <div className="card">
+                        <img src={Previa7} alt="Painel Hera" />
+                        <p>Painel Hera</p>
+                    </div>
+                    <div className="card">
+                        <img src={Previa8} alt="Espelho" />
+                        <p>Espelho</p>
+                    </div>
                 </div>
                 <div className="link-galery">
                 <a href="./Galery"> Ver galeria completa &rarr; </a>
